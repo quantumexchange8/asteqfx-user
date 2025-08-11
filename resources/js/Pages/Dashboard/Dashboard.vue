@@ -138,7 +138,9 @@ watchEffect(() => {
                         </div>
                         <div class="bg-logo py-5 px-10 flex flex-col justify-between items-center self-stretch">
                             <div class="flex items-center justify-end w-full">
-                                <ApplicationLogo class="w-14 h-7 fill-white" />
+                                <div class="bg-white inline-flex">
+                                    <ApplicationLogo aria-hidden="true" class="h-10" />
+                                </div>
                             </div>
                             <div class="flex flex-col gap-3 items-start self-stretch">
                                 <span class="text-sm text-gray-200 font-medium">{{ $t('public.available_rebate_balance') }}</span>
