@@ -16,7 +16,7 @@ import { IconX } from '@tabler/icons-vue';
                     v-show="sidebarState.isOpen || sidebarState.isHovered"
                     class="text-base font-bold text-gray-800 w-full"
                 >
-                    Current Tech Industries
+                    ASTEQ FX
                 </div>
             </div>
         </Link>

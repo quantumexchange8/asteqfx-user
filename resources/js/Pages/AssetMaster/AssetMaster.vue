@@ -204,7 +204,7 @@ getAvailableAccounts();
                             <ApplicationLogo aria-hidden="true" class="h-10" />
                         </div>
                         <div class="text-[6px] md:text-base 3xl:text-xl font-bold text-white mt-0.5 md:mt-0">
-                            Current Tech Industries.
+                            ASTEQ FX LIMITED.
                         </div>
                     </div>
                 </div>
