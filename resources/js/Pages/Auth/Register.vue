@@ -106,7 +106,7 @@ const handleBack = () => {
 const handleSubmit = () => {
     loading.value = true;
     form.post(route('register'), {
-        onFinish: () => {
+        onSuccess: () => {
             form.reset('password', 'password_confirmation');
         },
     });
