@@ -86,7 +86,7 @@ class RegisteredUserController extends Controller
      *
      * @throws \Illuminate\Validation\ValidationException
      */
-    public function store(Request $request): RedirectResponse
+    public function store(Request $request)
     {
         // $validator = Validator::make($request->all(), [
         //     'kyc_verification' => ['required', 'file', 'max:10000'],
