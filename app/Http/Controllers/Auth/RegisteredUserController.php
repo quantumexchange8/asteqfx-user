@@ -86,7 +86,7 @@ class RegisteredUserController extends Controller
      *
      * @throws \Illuminate\Validation\ValidationException
      */
-    public function store(Request $request)
+    public function store(Request $request): RedirectResponse
     {
         // $validator = Validator::make($request->all(), [
         //     'kyc_verification' => ['required', 'file', 'max:10000'],
@@ -162,9 +162,7 @@ class RegisteredUserController extends Controller
 
         Auth::login($user);
 
-        // return redirect(route('dashboard', absolute: false));
-        return Inertia::location(route('dashboard'));
-
+        return redirect(route('dashboard', absolute: false));
     }
 
     public function getFilterData()
