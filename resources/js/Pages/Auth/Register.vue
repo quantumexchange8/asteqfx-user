@@ -106,7 +106,7 @@ const handleBack = () => {
 const handleSubmit = () => {
     loading.value = true;
     form.post(route('register'), {
-        onSuccess: () => {
+        onFinish: () => {
             form.reset('password', 'password_confirmation');
         },
     });
@@ -205,7 +205,7 @@ const removeKycVerification = () => {
                         <div
                             class="text-lg font-bold text-gray-800 w-full"
                         >
-                            ASTEQ FX LIMITED
+                            Current Tech Industries
                         </div>
                     </div>
                 </Link>
@@ -473,7 +473,7 @@ const removeKycVerification = () => {
                             </div>
                         </form>
                     </div>
-                    <div class="text-center text-gray-500 text-xs mt-auto">© 2025 ASTEQ FX LIMITED. All rights reserved.</div>
+                    <div class="text-center text-gray-500 text-xs mt-auto">© 2024 Current Tech Industries. All rights reserved.</div>
                 </div>
             </div>
         </div>
